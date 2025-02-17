@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^akscomplex$ /akscomplex.html [L]
+Redirect 301 /olx https://www.olx.in/item/for-rent-shops-offices-c1731-450-sq-ft-in-sanjeevirayan-pettai-tindivanam-iid-1786662570
+Redirect 301 /olxhome https://www.olx.in/item/for-rent-houses-apartments-c1723-2-bhk-houses-villas-1000-sq-ft-in-mgr-nagar-tindivanam-iid-1786666912

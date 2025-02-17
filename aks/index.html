@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKS Complex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            margin: 5px 0;
+        }
+
+        h2.title {
+            display: inline;
+            background-color: darkgreen;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        h1.tolet {
+            font-size: 80px;
+            color: white;
+            background-color: #007bff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2.contact a {
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            background-color: #90EE90;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        /* Link styling */
+        li a {
+            color: inherit;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Hover effect for li */
+        li:hover {
+            background-color: #32CD32;
+            transform: scale(1.03); /* Slightly increases size on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+
+        img, video {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slides {
+            display: none;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            padding: 16px;
+            color: white;
+            font-size: 24px;
+            background-color: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            user-select: none;
+            transition: 0.6s ease;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .text {
+            color: #f2f2f2;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            padding: 8px 12px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        footer center {
+            font-size: 14px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            h1.tolet {
+                font-size: 50px;
+                padding: 15px;
+            }
+
+            li {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">AKS Complex</h2>
+    <h3>73 Gingee Road, Tindivanam</h3>
+    <h1 class="tolet">TOLET</h1>
+
+    <h2 class="contact">
+        <a href="tel:+919486268997" style="color: #007bff;">9486268997</a>
+        <a href="https://wa.me/919543365575" target="_blank" aria-label="WhatsApp Contact">
+            <i class="fab fa-whatsapp" style="color: #32CD32; font-size: 30px;"></i>
+        </a>
+    </h2>
+
+    <h1 style="font-size: 20px;">Property Listings -- Click below for Olx</h1>
+    <ul>
+            <li>
+        <a href="https://www.olx.in/item/for-rent-shops-offices-c1731-450-sq-ft-in-sanjeevirayan-pettai-tindivanam-iid-1786662570" target="_blank" style="color: inherit; text-decoration: none;">
+            Commercial space for Rent (450 sq.ft and 430 sq.ft)
+        </a>
+    </li>
+            <li>
+        <a href="https://www.olx.in/item/for-rent-houses-apartments-c1723-2-bhk-independent-builder-floors-1200-sq-ft-in-mgr-nagar-tindivanam-iid-1789681251" target="_blank" style="color: inherit; text-decoration: none;">
+            2 - 2 BHK Home(s) for Rent on 1st Floor
+        </a>
+    </li>
+        <li>5 Backside Commercial Office for Rent</li>
+    </ul>
+
+    <h2>AKS Complex 360 clip</h2>
+    <video controls poster="assets/img/Complex2.jpg">
+        <source src="assets/videos/akscomplex2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2 style="color: #800020; font-style: italic;">2BHK Home with 2 bath</h2>
+
+    <div class="slideshow-container">
+        <div class="slides">
+            <img src="assets/img/Fronthome-1.jpg" alt="Entrance Door">
+            <div class="text">Entrance Door</div>
+        </div>
+        <div class="slides">
+            <img src="assets/img/Fronthome-2.jpg" alt="Image 2">
+            <div class="text">Caption for Image 2</div>
+        </div>
+        <div class="slides">
+            <img src="assets/img/Fronthome-3.jpg" alt="Image 3">
+            <div class="text">Caption for Image 3</div>
+        </div>
+        <div class="slides">
+            <img src="assets/img/Fronthome-4.jpg" alt="Image 4">
+            <div class="text">Caption for Image 4</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)" aria-label="Previous Slide">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)" aria-label="Next Slide">&#10095;</a>
+    </div>
+
+    <h2>2 BHK Home clip</h2>
+    <video controls poster="assets/img/Fronthome-1.jpg">
+        <source src="assets/videos/Frontside-home.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function plusSlides(n) {
+            slideIndex += n;
+            showSlides();
+        }
+
+        function showSlides() {
+            let slides = document.querySelectorAll('.slides');
+            slides.forEach(slide => (slide.style.display = 'none'));
+            slideIndex = (slideIndex + slides.length) % slides.length;
+            slides[slideIndex].style.display = 'block';
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
+
+    <footer>
+        <center>All rights reserved &copy; 2024 AKS</center>
+    </footer>
+</body>
+</html>
